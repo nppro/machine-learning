@@ -41,20 +41,19 @@ The project is designed to run **both locally and in the Kaggle Notebook environ
 
 ## 🗂 Project Structure
 
+<pre>
 MACHINE-LEARNING/
-│
 ├── data/
-│ └── features*3_sec.csv # Audio feature dataset (GTZAN, 3-second segments)
+│   └── features_3_sec.csv        # Audio feature dataset (GTZAN, 3-second segments)
 │
 ├── notebooks/
-│ └── music-genre.ipynb # Main Jupyter/Kaggle notebook
+│   └── music-genre.ipynb         # Main Jupyter / Kaggle notebook
 │
 ├── samples/
-│ └── *.mp3 / \_.wav # Sample audio files for live prediction demo
+│   └── *.mp3 / *.wav             # Sample audio files for live prediction demo
 │
-└── README.md # Project documentation
-
----
+└── README.md                     # Project documentation
+</pre>
 
 ## ⚙️ Execution Environments
 
