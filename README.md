@@ -81,8 +81,13 @@ Install required libraries using pip:
 ````bash
 pip install numpy pandas matplotlib seaborn scikit-learn librosa tensorflow
 
+3️⃣ Dataset Setup (Local)
+	1.	Download the dataset from Kaggle:
+	•	GTZAN Music Genre Dataset (feature-based)
+	2.	Place the file features_3_sec.csv in the project data directory e.g: /data/features_e_sec.csv
 
-3️⃣ Run the Notebook
+
+4️⃣ Run the Notebook
 ```bash
 jupyter notebook
 ````
